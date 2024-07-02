@@ -136,5 +136,51 @@ Create file : routes/emailRoutes.js
 ```
 Create file : routes/templateRoutes.js 
 ```
+#### 5.4 TESTING EMAIL NOTIFICATION
+
+## 3. 02-07-2024
+
+### 6. Template Model and CRUD operations
+
+#### 6.1 Create the Template Model
+```
+Create file models/template.js
+```
+
+#### 6.2 Create Template Controller Functions
+
+```
+Create file controllers/templateController.js 
+```
+
+- file to include the necessary functions for fetching and selecting templates
+
+#### 6.3 Create Routes for Templates
+
+```
+Create routes/templateRoutes.js file
+```
+
+- define the routes for template-related actions
+
+#### 6.4 Create the index.js file for better organization
+```
+Create file routes/index.js
+```
+
+#### 6.5 Update server.js to use index.js
+
+```
+Update server.js file
+```
+
+### 7. Create Database and Integrate
+
+#### 7.1 Create database ```EmailNotifierDB``` in MongoDB
+
+#### 7.2 Update ```MONGO_URI``` in .env file
+
+
+#### 7.3 TESTING CONNECTION OF DATABASE : ```EmailNotifierDB```
 
 
